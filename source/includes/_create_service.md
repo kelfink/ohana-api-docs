@@ -2,7 +2,7 @@
 
 ```ruby
 # Create a service for location with id 1
-Ohanakapa.post('locations/1/services', { name: 'Free Eye Exam', audience: 'Low-income children between the ages of 5 and 12.', description: 'Provides free eye exams for low-income children between the ages of 5 and 12.' })
+Ohanakapa.post('locations/1/services', query: { name: 'Free Eye Exam', audience: 'Low-income children between the ages of 5 and 12.', description: 'Provides free eye exams for low-income children between the ages of 5 and 12.' })
 ```
 
 ```shell
