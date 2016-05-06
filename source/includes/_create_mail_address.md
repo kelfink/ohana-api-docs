@@ -4,7 +4,7 @@
 
 ```ruby
 # Create a mail address for location with id 1
-Ohanakapa.post('locations/1/mail_address/', { address_1: 'New Street', city: 'Albequerque', state_province: 'NM', postal_code: '12345', country: 'US' })
+Ohanakapa.post('locations/1/mail_address/', query: { address_1: 'New Street', city: 'Albequerque', state_province: 'NM', postal_code: '12345', country: 'US' })
 ```
 
 ```shell
