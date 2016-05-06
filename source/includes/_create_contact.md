@@ -2,7 +2,7 @@
 
 ```ruby
 # Create a contact for location with id 1
-Ohanakapa.post('locations/1/contacts/', { department: 'Referrals', name: 'Moncef' })
+Ohanakapa.post('locations/1/contacts/', query: { department: 'Referrals', name: 'Moncef' })
 ```
 
 ```shell
