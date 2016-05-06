@@ -6,7 +6,7 @@ Phones can be created for either a location or a contact.
 
 ```ruby
 # Create a phone for location with id 1
-Ohanakapa.post('locations/1/phones/', { number: '123-456-7890', extension: '1200', department: 'Referrals',  number_type: 'voice', country_prefix: '+1' })
+Ohanakapa.post('locations/1/phones/', query: { number: '123-456-7890', extension: '1200', department: 'Referrals',  number_type: 'voice', country_prefix: '+1' })
 ```
 
 ```shell
